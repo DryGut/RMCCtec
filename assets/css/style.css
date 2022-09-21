@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: var(--transition);
+}
+
+:root {
+    --normal-font: 400;
+    --bold-font: 600;
+    --bolder-font: 900;
+    --line-height: 1.7rem;
+    --transition: 0.4s ease-in;
+    --primary-color: #000;
+    --secondary-color: #fff;
+}
+
+body {
+    background-color: burlywood;
+    margin-left: 10rem;
+}
+
+.wrapper {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    position: sticky;
+    top: 0px;
+    left: 0;
+    z-index: 1;
+    margin-top: 2rem;
+    height: 3rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link {
+    font-weight: var(--bold-font);
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover {
+    color: #795a33;
+}
+
+.logo {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: -10rem;
+    text-decoration: none;
+    margin-bottom: -1rem;
+    margin-top: -0.5rem;
+}
+
+.Cname {
+    color: #795a33;
+    font-size: 34px;
+    font-family: serif;
+}
+.tec {
+    color: #795a33;
+    font-size: 31px;
+    font-family: serif;
+}
+
+.btn {
+    padding: 1rem 3.2rem;
+    display: inline-block;
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 40px;
+    color: #fff;
+    margin-left: 7rem;
+    text-decoration: none;
+}
+.saiba {
+    margin-top: 2rem;
+    margin-left: 59.5rem;
+    background-color: var(--primary-color);
+}
+.saiba:hover {
+    color: #795a33;
+}
+.sub {
+    background-color: var(--primary-color);
+}
+.sub:hover {
+    color: #795a33;
+}
+.intro-text img {
+    max-width: 50rem;
+    border-radius: 200px;
+    border-color: #000;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 6rem;
+    margin-left: 50rem;
+}
+
+.intro-text h2 {
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 3.8rem;
+    margin-left: 49rem;
+    font-size: 29px;
+}
+
+.etiqueta {
+    background-color: #fff;
+    margin-top: -34rem;
+    margin-right: 79rem;
+    border-style: solid;
+    border-radius: 13px;
+    margin-bottom: 37rem;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.7rem;
+}
+.etiqueta img {
+    width: 154px;
+    height: 124px;
+    margin-left: 19rem;
+    margin-top: -9rem;
+    border-radius: 26px;
+}
+
+.etiqueta p {
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+.rodape {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 0.5rem;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
